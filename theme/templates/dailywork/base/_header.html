@@ -1,0 +1,75 @@
+{% load static %}
+<header id="topNav" style="height: 81px;">
+    <div class="container">
+
+        <!-- Mobile Menu Button -->
+        <button data-target=".nav-main-collapse" data-toggle="collapse" class="btn btn-mobile" style="margin-top: 8px;">
+            <i class="fa fa-bars"></i>
+        </button>
+
+        <!-- Logo text or image -->
+        <a href="/" class="logo" style="margin-top: 0px; line-height: 50px;">
+            <img alt="Daily Worker" src="{% static 'dailywork/imagkes/logo.png' %}">
+            </a>
+
+        <!-- Top Nav -->
+        <div class="navbar-collapse nav-main-collapse collapse pull-right" style="margin-top: 16px;">
+            <nav class="nav-main mega-menu">
+                <ul id="topMain" class="nav nav-pills nav-main scroll-menu">
+                    <li class="">
+                        <a href="#" >
+                            FREELANCER
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" >
+                            EMPLOYER
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" >
+                            SERVICES
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" >
+                            PORTFOLIO
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" >
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" >
+                            TEAM
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" >
+                            CONTACT
+                        </a>
+                    </li>
+
+                    <!-- GLOBAL SEARCH -->
+                    <li class="search">
+                        <!-- search form -->
+                        <form class="input-group pull-right" action="#" method="get">
+                            <input type="text" placeholder="Search" value="" id="k" name="k" class="form-control">
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary notransition" style="margin-top: 8px;"><i class="fa fa-search"></i></button>
+                            </span>
+                        </form>
+                        <!-- /search form -->
+                    </li>
+                    <!-- /GLOBAL SEARCH -->
+
+                </ul>
+            </nav>
+        </div>
+        <!-- /Top Nav -->
+
+    </div>
+</header>
+<span id="header_shadow"></span>
